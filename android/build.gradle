@@ -25,10 +25,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 35
+    compileSdk 35
 
     defaultConfig {
-        minSdkVersion 21
+        minSdk 21
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     // sourceSets {
