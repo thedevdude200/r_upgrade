@@ -45,5 +45,5 @@ android {
 dependencies {
     implementation 'androidx.core:core:1.0.2'
     implementation 'org.jsoup:jsoup:1.14.3'
-    implementation(name:"r_upgrade_lib",ext:"aar")
+    implementation(files("libs/r_upgrade_lib.aar"))
 }
