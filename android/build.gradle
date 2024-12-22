@@ -39,6 +39,7 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
+     namespace 'com.example.r_upgrade'
 }
 
 dependencies {
