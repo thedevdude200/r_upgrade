@@ -108,7 +108,7 @@ public class UpgradeManager extends ContextWrapper {
         filter.addAction(UpgradeManager.DOWNLOAD_STATUS);
         filter.addAction(UpgradeManager.DOWNLOAD_INSTALL);
         downloadReceiver = createBroadcastReceiver();
-        registerReceiver(downloadReceiver, filter);
+         registerReceiver(downloadReceiver, filter, Context.RECEIVER_EXPORTED);
     }
 
 
